@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etName" android:hint="Product Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDescription" android:hint="Description" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etASIN" android:hint="ASIN" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etBrand" android:hint="Brand" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etModel" android:hint="Model" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etColor" android:hint="Color" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etVolume" android:hint="Volume" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etWeight" android:hint="Weight" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etPurchasePrice" android:hint="Purchase Price" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etPackagingCost" android:hint="Packaging Cost" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etShippingCost" android:hint="Shipping Cost" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etAmazonFee" android:hint="Amazon Fee" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etAdCost" android:hint="Ad Cost" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etSellingPrice" android:hint="Selling Price" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etStockOrigin" android:hint="Stock Origin" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etStockDestination" android:hint="Stock Destination" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnSaveProduct" android:text="Save Product" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

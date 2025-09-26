@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.accountapp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AccountApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Activity ورود -->
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity لیست محصولات -->
+        <activity android:name=".ProductListActivity" />
+
+        <!-- Activity افزودن/ویرایش محصول -->
+        <activity android:name=".ProductEditActivity" />
+
+        <!-- MainActivity (صفحه خوشامد یا بعد از ورود می‌توانید استفاده کنید) -->
+        <activity android:name=".MainActivity" />
+
+    </application>
+
+</manifest>
